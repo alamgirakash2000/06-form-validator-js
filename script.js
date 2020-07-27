@@ -67,7 +67,7 @@ formId.addEventListener('submit', (e)=>{
     inputValidator(password, 6, 12)
     checkPasswordMatching(password,password2)
 })
-// Submit form by pressing Enter
+// Submitting form by pressing Enter
 document.getElementById("form").addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
     	document.getElementById("form").submit();
