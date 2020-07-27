@@ -25,7 +25,6 @@ function checkRequired(inputArr){
             showSuccess(input)
         }
     })
-
 }
 
 // Validate the username
