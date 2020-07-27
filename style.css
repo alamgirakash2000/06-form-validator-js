@@ -1,0 +1,36 @@
+body{
+    background: black;
+    color: white;
+}
+
+.container{
+    height: 100vh;
+    margin-top: 4%;
+}
+#form{
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    margin: auto auto;
+    box-shadow: 5px 5px 10px gray;
+    background: rgb(46, 43, 49);
+}
+.control{
+    margin: 5px 0;
+}
+
+.control small{
+    display: none;
+}
+.control.error small{
+    display: block;
+}
+
+.control.success input{
+    border-color: rgb(29, 133, 29);
+}
+.control.error input{
+    border-color: rgb(216, 47, 47);
+}
